@@ -1,0 +1,195 @@
+@charset "UTF-8";
+.section {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fp-tableCell {
+  vertical-align: top;
+}
+
+.main-page {
+  background-image: url("images/1-compressor.png");
+}
+
+.main-page .title {
+  color: #fff;
+  font-size: 7vh;
+  margin: 0.5em 1em;
+}
+
+.logo {
+  width: 25vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+
+h1.title {
+  color: #fff;
+  font-size: 8vh;
+  margin: 0.5em 1em;
+}
+
+/*menu*/
+.menu {
+  float: right;
+  padding-right: 9vh;
+}
+
+.menu li {
+  float: left;
+  list-style: none;
+}
+
+.menu a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: #00b0f0;
+  margin-left: 0;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0.3em 1em;
+}
+
+.menu a:hover {
+  background: #195f79;
+  color: #d1d1d1;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/*關於我們*/
+.about {
+  color: #fff;
+  background-image: url("images/2-compressor.png");
+}
+
+.about p {
+  margin: 1em 3em;
+  font-size: 5vh;
+}
+
+/*服務項目*/
+.service {
+  background-image: url("images/3-compressor.png");
+}
+
+.service img {
+  position: absolute;
+  top: 0;
+  left: 5vh;
+  width: 100%;
+}
+
+/*產品介紹*/
+.product {
+  background-image: url("images/4-compressor.png");
+}
+
+.product ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product table {
+  font-family: "標楷體";
+  border: 1px solid #eb7712;
+  border-collapse: collapse;
+  background-color: #fff;
+  width: 150vh;
+  font-size: 3vh;
+  margin-top: 10vh;
+  border-spacing: 50px;
+}
+
+.product th {
+  color: #fff;
+  background: #eb7712;
+  text-align: left;
+}
+
+.product th,
+.product tr,
+.product td {
+  border: 2px solid #eb7712;
+  padding: 0.5em;
+}
+
+.product .text-yellow {
+  color: yellow;
+}
+
+.product .center table {
+  margin: 0 auto;
+}
+
+.product-img {
+  width: 100vh;
+}
+
+/*聯絡我們*/
+.contact {
+  background-image: url("images/5-compressor.png");
+}
+
+.contact h2 {
+  position: relative;
+  font-size: 5vh;
+  color: green;
+  left: 10vh;
+  bottom: -40vh;
+}
+
+.contact .sign-up {
+  display: inline-block;
+  position: absolute;
+  left: 45vh;
+  top: -20vh;
+  width: 30vh;
+  text-align: center;
+}
+
+.contact .sign-up .sign-up-title {
+  color: #ff6699;
+  font-size: 6vh;
+  font-weight: bold;
+}
+
+.contact .sign-up .sign-up-qrcode {
+  width: 25vh;
+}
+
+.contact .cube-contact {
+  position: relative;
+  top: 0;
+  right: -20vh;
+  width: 60vh;
+}
+
+.contact .contact-us-qrcode {
+  position: relative;
+  left: 10vh;
+  width: 20vh;
+  bottom: -35vh;
+}
+
+.contact .p-content {
+  color: #00b0f0;
+  font-size: 4.5vh;
+  font-weight: bold;
+  position: absolute;
+  bottom: -15vh;
+  right: 4vh;
+}
+
+.contact .p-content p {
+  margin: 0.2em auto;
+}
+/*# sourceMappingURL=index.css.map */
